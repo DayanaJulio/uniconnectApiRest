@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Busqueda">
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="731dp"
+        android:background="@drawable/fondo2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/bad_script"
+            android:text="Buscador de Docentes"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="serif"
+            android:text="@string/mensajeDigitar"
+            android:textAlignment="center"
+            android:textColor="#0FA2E4"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editTextcodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginLeft="190px"
+            android:layout_marginTop="90px"
+            android:layout_marginRight="150px"
+            android:background="@drawable/style2"
+            android:ems="10"
+            android:hint="@string/busqueda"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHighlight="#5C5959"
+            android:textColorHint="#636060"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/buttonsearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="100dp"
+            android:text="@string/bottonbusqueda"
+            android:textSize="23sp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

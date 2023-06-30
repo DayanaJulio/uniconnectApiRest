@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Uniconnect</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="ButtonLogin">Login In</string>
+    <string name="ButtonEstudiante">Estudiante</string>
+    <string name="ButtonDocente">Docente</string>
+    <string name="ButtonEvento">Eventos</string>
+    <string name="title_activity_busqueda">Busqueda</string>
+    <string name="busqueda">Digite Codigo</string>
+    <string name="bottonbusqueda">Search</string>
+    <string name="mensajeDigitar">Porfavor Digite su Codigo</string>
+    <!-- formulario Estudiante>-->
+    <string name="nombre">Nombre</string>
+    <string name="programa">Programa</string>
+    <string name="Edad">Edad</string>
+    <string name="Hobbies">Hobbies</string>
+    <string name="CancionPreferida">Cancion Preferida</string>
+    <string name="Comidapreferida">Comida Preferida</string>
+    <string name="Peliculapreferida">Pelicula Preferida</string>
+    <string name="informacionestudiante">Información del Estudiante</string>
+
+    <!-- formulario Docente>-->
+    <string name="Facultad">Facultad</string>
+    <string name="Area">Area</string>
+    <string name="informaciondocente">Información del Docente</string>
+
+    <!-- formulario Evento>-->
+    <string name="Sede">Sede</string>
+    <string name="fecha">Fecha</string>
+    <string name="tema">Tema</string>
+    <string name="tipo">Tipo</string>
+    <string name="informacionevento">Información del Evento</string>
+
+</resources>
